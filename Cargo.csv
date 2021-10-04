@@ -1,0 +1,10 @@
+Category;Description;Mass of single package;Number of packages;Assigned warehouse;Arrival date
+Industrial;Description 1;100.0;3;Poznan;2021-11-09
+Other;Description 2;80.0;6;Opole;2021-12-09
+Merchendise;Description 3;90.0;8;Warszawa;2021-08-09
+Other;Description 4;90.0;8;Warszawa;2021-08-09
+Raw_Material;Description 5;90.0;8;Warszawa;2020-08-09
+Other;Description 6;90.0;8;Katowice;2020-09-30
+Merchendise;Description 7;90.0;8;Bydgoszcz;2021-01-20
+Industrial;XWWWWYZ;50.5;3;Katowice;2014-08-20
+Raw_Material;XY;20.5;3;Wroclaw;2016-03-20
