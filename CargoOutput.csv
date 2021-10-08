@@ -1,4 +1,2 @@
 Category;Description;Mass of single package;Number of packages;Assigned warehouse;Arrival date
-Industrial;Description 6;100.0;3;Poznan;2021-09-09
-Merchendise;Description 7;80.0;6;Opole;2021-09-09
-Merchendise;Description 8;90.0;8;Warszawa;2021-09-09
+Industrial;Description;100.0;1;Location;2021-11-09

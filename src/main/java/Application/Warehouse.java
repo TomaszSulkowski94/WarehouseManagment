@@ -29,32 +29,22 @@ public class Warehouse {
         return location;
     }
 
-    public void setLocation(String location) {
-        this.location = location;
-    }
 
     public double getCapacity() {
         return capacity;
     }
 
-    public void setCapacity(double capacity) {
-        this.capacity = capacity;
-    }
 
     public List<Cargo> getCargoList() {
         return cargoList;
     }
 
-    public void setCargoList(List<Cargo> cargoList) {
-        this.cargoList = cargoList;
+    public void setFilledCapacity(double filledCapacity) {
+        this.filledCapacity = filledCapacity;
     }
 
     public double getFilledCapacity() {
         return filledCapacity;
-    }
-
-    public void setFilledCapacity(double filledCapacity) {
-        this.filledCapacity = filledCapacity;
     }
 
     private static void displayCargoList(List<Cargo> cl) {

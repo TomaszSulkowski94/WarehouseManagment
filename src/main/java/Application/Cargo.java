@@ -33,32 +33,16 @@ public class Cargo {
         return category;
     }
 
-    public void setCategory(Category category) {
-        this.category = category;
-    }
-
     public String getDescription() {
         return description;
-    }
-
-    public void setDescription(String description) {
-        this.description = description;
     }
 
     public double getMassOfSinglePackage() {
         return massOfSinglePackage;
     }
 
-    public void setMassOfSinglePackage(double massOfSinglePackage) {
-        this.massOfSinglePackage = massOfSinglePackage;
-    }
-
     public int getNumberOfPackages() {
         return numberOfPackages;
-    }
-
-    public void setNumberOfPackages(int numberOfPackages) {
-        this.numberOfPackages = numberOfPackages;
     }
 
     public Warehouse getAssignedWarehouse() {
@@ -71,10 +55,6 @@ public class Cargo {
 
     public LocalDate getArrivalDate() {
         return arrivalDate;
-    }
-
-    public void setArrivalDate(LocalDate arrivalDate) {
-        this.arrivalDate = arrivalDate;
     }
 
     public static void addNewCargo(List<Warehouse> whList) {
@@ -149,13 +129,13 @@ public class Cargo {
         displayCargoList(cl);
     }
 
-    public void displayCargoDetails() {
-        StringBuilder sb = new StringBuilder();
-        sb.append("Kategoria produktu: ").append(category).append(", Opis produktu: ").append(description)
-                .append(", Masa pojedynczej paczki: ").append(massOfSinglePackage).append(", Liczba paczek: ").append(numberOfPackages)
-                .append(", Przypisany magazyn: ").append(assignedWarehouse.getLocation()).append(", Planowana data przywiezienia: ").append(arrivalDate);
-        System.out.println(sb);
-    }
+//    public void displayCargoDetails() {
+//        StringBuilder sb = new StringBuilder();
+//        sb.append("Kategoria produktu: ").append(category).append(", Opis produktu: ").append(description)
+//                .append(", Masa pojedynczej paczki: ").append(massOfSinglePackage).append(", Liczba paczek: ").append(numberOfPackages)
+//                .append(", Przypisany magazyn: ").append(assignedWarehouse.getLocation()).append(", Planowana data przywiezienia: ").append(arrivalDate);
+//        System.out.println(sb);
+//    }
 
     public static void removeCargo(List<Cargo> cargoList) {
         Scanner sc = new Scanner(System.in);
